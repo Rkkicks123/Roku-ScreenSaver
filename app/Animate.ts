@@ -1,10 +1,6 @@
 //Imports:
 
 import {drawRect} from './rokus'
-import {drawRect2} from './rokus'
-import {drawRect3} from './rokus'
-import {drawRect4} from './rokus'
-import {drawRain} from './rokus'
 
 
 
@@ -90,9 +86,9 @@ export function animate (){
   ctx.clearRect(0,0,canvas.width,canvas.height)
   //ctx.rotate(Math.PI*42/180)
   drawRect(x,y);
-  drawRect2(axis,height);
-  drawRect3(ax,ht);
-  drawRect4(a,h);
+  drawRect(axis,height);
+  drawRect(ax,ht);
+  drawRect(a,h);
   window.requestAnimationFrame(animate)
   
 
