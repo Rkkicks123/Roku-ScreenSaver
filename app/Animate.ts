@@ -61,6 +61,9 @@ export function animate (){
   if (a>canvas.width) {
     a=0;
   };
+    if (h>canvas.width) {
+    h=0;
+  };
 
   if (b>canvas.height) {
      b=0;
