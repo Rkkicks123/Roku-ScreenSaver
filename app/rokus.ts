@@ -1,6 +1,7 @@
 
-let canvas = document.querySelector('canvas');
-let ctx = canvas.getContext('2d')
+import {canvas, ctx} from './canvas';
+
+
 let imageElement = document.querySelector('#roku');
 
 

@@ -4,6 +4,5 @@ document.querySelector('#app').appendChild(canvas);
 
 canvas.width = window.innerWidth
 canvas.height = window.innerHeight
-canvas.style.border = '2px solid blue';
 canvas.style.display = 'block';
 canvas.style.margin = 'auto';
