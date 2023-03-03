@@ -73,15 +73,15 @@ export function animate (){
   
   //Speed:
   x=x+0
-  y=y+5
+  y=y+0.5
   axis=axis+0
-  height=height+6
+  height=height+0.6
   ax=ax+0
-  ht=ht+7
+  ht=ht+0.7
   a=a+0
-  h=h+8
+  h=h+0.8
   b=b+0
-  c=c+5
+  c=c+0.5
 
   //draing part:
   
