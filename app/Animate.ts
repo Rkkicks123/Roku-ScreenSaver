@@ -1,13 +1,12 @@
 //Imports:
-
+import {canvas, ctx} from './canvas';
 import {drawRect} from './rokus'
 
 
 
 //Structure:
 
-let canvas = document.querySelector('canvas');
-let ctx = canvas.getContext('2d')
+
 let imageElement = document.querySelector('#roku');
 
 
